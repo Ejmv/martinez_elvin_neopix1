@@ -1,11 +1,11 @@
-def on_forever():
-    pass
-forever(on_forever)
-light.set_pixel_color(0, light.rgb(255, 0, 0))
-light.set_pixel_color(1, light.rgb(0, 0, 255))
-light.set_pixel_color(2, light.rgb(0, 255, 0))
-light.set_pixel_color(3, light.rgb(255, 255, 0))
-light.set_pixel_color(4, light.rgb(255, 0, 255))
-light.set_pixel_color(5, light.rgb(0, 255, 255))
-
-
+light.set_pixel_color(0, light.rgb(255, 150, 0))
+light.set_pixel_color(1, light.rgb(200, 255, 0))
+light.set_pixel_color(2, light.rgb(0, 255, 75))
+light.set_pixel_color(3, light.rgb(0, 225, 150))
+light.set_pixel_color(4, light.rgb(0, 200, 225))
+light.set_pixel_color(5, light.rgb(0, 100, 255))
+light.set_pixel_color(6, light.rgb(50, 75, 255))
+light.set_pixel_color(7, light.rgb(100, 25, 200))
+light.set_pixel_color(8, light.rgb(150, 0, 150))
+light.set_pixel_color(9, light.rgb(200, 0, 75))
+light.set_brightness(10)
